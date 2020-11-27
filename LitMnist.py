@@ -84,8 +84,8 @@ if __name__ == "__main__":
 
 
 
-    train_dl = torch.utils.data.DataLoader(dataset=train_ds, batch_size=256, shuffle=True, num_workers=4)
-    val_dl = torch.utils.data.DataLoader(dataset=val_ds, batch_size=128, shuffle=False, num_workers=4)
+    train_dl = torch.utils.data.DataLoader(dataset=train_ds, batch_size=2048, shuffle=True, num_workers=4)
+    val_dl = torch.utils.data.DataLoader(dataset=val_ds, batch_size=1024, shuffle=False, num_workers=4)
 
     parser = argparse.ArgumentParser()
 
