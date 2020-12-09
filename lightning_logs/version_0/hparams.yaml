@@ -1,1 +1,6 @@
-{}
+device: cuda
+hidden_size: 256
+input_size: 28
+num_layers: 2
+out_size: 10
+seq_len: 28
